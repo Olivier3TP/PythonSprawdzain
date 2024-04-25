@@ -13,13 +13,13 @@ with open("hasla.txt") as plik:
             ilenieparzystych += 1
 
         #zad 2
-        # if(linia == linia[::-1]):
-        #     print(linia, "\n")
+        if(linia == linia[::-1]):
+            print(linia, "\n")
 
         # zad 3
         for litera in linia:
             if(ord(litera) + ord(litera) == 220):
                 print(linia, "\n")
 
-    # print("parzyste: ", ileparzystych)
-    # print("nie parzyste: ", ilenieparzystych)
+    print("parzyste: ", ileparzystych)
+    print("nie parzyste: ", ilenieparzystych)
